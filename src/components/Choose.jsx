@@ -1,6 +1,4 @@
 import React from 'react';
-import choose from '../assets/choose.png';
-import choose1 from '../assets/choose1.png';
 import choose2 from '../assets/choose2.png';
 import choose3 from '../assets/choose3.png';
 import choose4 from '../assets/choose4.png';

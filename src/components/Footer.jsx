@@ -42,7 +42,7 @@ function Footer() {
               <ul>
                 {subTypes.map((type, index) => (
                   <li key={index}>
-                    <a href='#'>{type}</a>
+                    <a>{type}</a>
                   </li>
                 ))}
               </ul>

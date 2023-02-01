@@ -4,8 +4,6 @@ import Choose from './components/Choose';
 import Home from './components/Home';
 import './scss/index.scss';
 import Services from './components/Services';
-import Categories from './components/Categories';
-import Recommend from './components/Recommend';
 import Products from './components/Products';
 import Promo from './components/Promo';
 import ScrollTop from './components/ScrollTop';

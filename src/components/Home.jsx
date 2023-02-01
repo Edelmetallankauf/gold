@@ -1,5 +1,4 @@
 import React from 'react';
-import { BiSearch } from 'react-icons/bi';
 import carouselImg1 from '../assets/images/Carousel.jpg';
 import carouselImg2 from '../assets/images/Carousel2.jpg';
 import carouselImg3 from '../assets/images/Carousel3.jpg';

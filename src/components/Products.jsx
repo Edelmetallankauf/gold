@@ -1,8 +1,6 @@
 import React from 'react';
 import item1 from '../assets/images/Carousel2.jpg';
 import item2 from '../assets/images/scottsdale-mint-dD9Kowe5_NY-unsplash.jpg';
-import osimage from '../assets/os.png';
-import processorimage from '../assets/processor.png';
 import { BsChevronDown } from 'react-icons/bs';
 function Products() {
   const productsGold = [
