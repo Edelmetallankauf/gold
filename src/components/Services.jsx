@@ -3,7 +3,6 @@ import { HiArrowSmRight } from 'react-icons/hi';
 import service1 from '../assets/images/gold-6355963_1920-removebg-preview.png';
 import service2 from '../assets/images/gold-679433_1920-removebg-preview.png';
 import service3 from '../assets/images/coin4.png';
-import service4 from '../assets/service4.png';
 
 function Services() {
   return (
