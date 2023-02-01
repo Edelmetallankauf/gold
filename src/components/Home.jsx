@@ -1,21 +1,34 @@
-import React from "react";
-import { BiSearch } from "react-icons/bi";
-import home from "../assets/home.png";
+import React from 'react';
+import { BiSearch } from 'react-icons/bi';
+import carouselImg1 from '../assets/images/Carousel.jpg';
+import carouselImg2 from '../assets/images/Carousel2.jpg';
+import carouselImg3 from '../assets/images/Carousel3.jpg';
+import carouselImg4 from '../assets/images/Carousel4.jpg';
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function Home() {
   return (
-    <div className="home">
-      <div className="container mx-3 py-3">
-        <div className="title-container">
-          <h2>Browse Million Products for Your Needs</h2>
-          <div className="input-container">
-            <input type="text" placeholder="I want to buy..." />
-            <div className="icon">
-              <BiSearch />
-            </div>
-          </div>
+    <div className='home' id='home'>
+      <div className='container mx-3 py-3'>
+        <div className='title-container'>
+          <h2>We buy and sell gold and silver at the best prices</h2>
         </div>
-        <div className="extra-image">
-          <img src={home} alt="Home" />
+        <div className='extra-image'>
+          <Carousel>
+            <Carousel.Item>
+              <img src={carouselImg1} alt='logo'></img>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={carouselImg2} alt='logo'></img>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={carouselImg3} alt='logo'></img>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={carouselImg4} alt='logo'></img>
+            </Carousel.Item>
+          </Carousel>
         </div>
       </div>
     </div>

@@ -62,8 +62,8 @@
     .container {
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas:
-        "one one one four"
-        "two two three three";
+        'one one one four'
+        'two two three three';
       .service {
         &:nth-of-type(1) {
           grid-area: one;

@@ -56,6 +56,8 @@
       }
     }
     .extra-image {
+      width: 100%;
+      z-index: 0;
       img {
         max-inline-size: 100%;
         block-size: auto;
@@ -90,8 +92,8 @@
       }
       .extra-image {
         img {
-          height: 25rem;
-          max-inline-size: none;
+          height: 100%;
+          // max-inline-size: none;
         }
       }
     }

@@ -13,21 +13,26 @@ nav {
       display: flex;
       gap: 0.3rem;
       span {
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: var(--dark-blue);
         font-weight: bolder;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
       }
-      .dot {
-        color: var(--ocean-blue);
+      img {
+        height: 40px;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
       }
     }
     .links-container {
       .toggle {
         display: flex;
         gap: 1rem;
-        flex-direction: row-reverse;
+        flex-direction: column;
         position: relative;
+        margin: 50px;
         z-index: 1;
         .sun {
           color: yellow;
@@ -48,7 +53,7 @@ nav {
         right: 0;
         top: 0;
         height: 100vh;
-        z-index: 0;
+
         background-color: var(--background);
         visibility: hidden;
         transition: var(--transition);
@@ -98,6 +103,11 @@ nav {
       padding: 1rem 0;
     }
     .container {
+      .brand {
+        img {
+          width: 30%;
+        }
+      }
       .links-container {
         .toggle {
           display: none;
