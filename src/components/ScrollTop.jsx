@@ -14,6 +14,7 @@ function ScrollTop() {
       >
         <FaChevronUp />
       </a>
+      <script src='https://apps.elfsight.com/p/platform.js' defer></script>
     </div>
   );
 }

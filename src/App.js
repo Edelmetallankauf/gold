@@ -56,6 +56,7 @@ function App() {
       <Choose />
       <Promo />
       <Footer />
+      <div class='elfsight-app-ed170658-b721-461f-b15b-fb818b7912c8'></div>
     </div>
   );
 }

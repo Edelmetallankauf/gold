@@ -74,7 +74,8 @@ function Products() {
                 <h4>{model}</h4>
                 <h4>Purchase: {purchase}</h4>
                 <hr />
-                <button>Buy Now</button>
+                <a href='mailto:nhensler@edellmetallankauf.ch'>Buy Now</a>
+
                 <BsChevronDown />
               </div>
             );
@@ -96,7 +97,7 @@ function Products() {
                 <h4>{model}</h4>
                 <h4>Purchase: {purchase}</h4>
                 <hr />
-                <button>Buy Now</button>
+                <a href='mailto:nhensler@edellmetallankauf.ch'>Buy Now</a>
                 <BsChevronDown />
               </div>
             );
