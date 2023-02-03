@@ -28,17 +28,13 @@
         background-color: white;
         padding: 0.25rem 0;
         border-radius: 0.5rem;
-        input {
-          width: 90%;
-          border: none;
-          padding: 0.5rem 0;
-          text-align: center;
-          font-size: 1.1rem;
-          &:focus {
-            outline: none;
-          }
+        &:hover {
+          background-color: var(--dark-blue);
+          color: var(--background);
+          border-color: var(--background);
         }
-        button {
+
+        a {
           width: 90%;
           border: none;
           background-color: var(--ocean-blue);
@@ -69,13 +65,16 @@
         .subscribe-container {
           flex-direction: row;
           padding: 0.5rem 1px;
-          input {
-            width: 70%;
+          &:hover {
+            background-color: var(--dark-blue);
+            color: var(--background);
+            border-color: var(--background);
           }
-          button {
+          a {
             width: 90%;
             height: 100%;
-            padding: 1rem;
+            padding: 0.25rem;
+            text-decoration: none;
           }
         }
       }

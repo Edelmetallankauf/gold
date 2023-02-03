@@ -8,13 +8,14 @@ function Promo() {
           <div className='title-container'>
             <h2>Contact</h2>
             <p>
-              To recive latest news on our products and services, just subscribe
-              to us 🙂
+              To recive latest news on our products and services, just email and
+              subscribe to us 🙂
             </p>
           </div>
           <div className='subscribe-container'>
-            {/* <input type='email' placeholder='yourname@mail.com' /> */}
-            <button>Subscribe</button>
+            <a href='mailto:nhensler@edellmetallankauf.ch'>
+              Email and Subscribe
+            </a>
           </div>
         </div>
         <div className='promo-image'>
