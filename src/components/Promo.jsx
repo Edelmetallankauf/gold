@@ -13,7 +13,7 @@ function Promo() {
             </p>
           </div>
           <div className='subscribe-container'>
-            <input type='email' placeholder='yourname@mail.com' />
+            {/* <input type='email' placeholder='yourname@mail.com' /> */}
             <button>Subscribe</button>
           </div>
         </div>

@@ -11,7 +11,7 @@ function Navbar({ changeTheme, currentTheme }) {
   html.addEventListener('click', () => setNavState(false));
   return (
     <nav>
-      <div className='container py-3 mx-3'>
+      <div className='container py-2 mx-3' id='navbar'>
         <div className='brand'>
           <span>Precious metal purchase</span>
           <img src={home} alt='brandImg'></img>

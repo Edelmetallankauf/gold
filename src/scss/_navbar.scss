@@ -17,8 +17,9 @@ nav {
         color: var(--dark-blue);
         font-weight: bolder;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
+
+        // margin-top: 5vh;
+        // margin-bottom: 5vh;
       }
       img {
         height: 40px;
@@ -30,9 +31,9 @@ nav {
       .toggle {
         display: flex;
         gap: 1rem;
-        flex-direction: column;
+        flex-direction: row-reverse;
         position: relative;
-        margin: 50px;
+        margin: 10px;
         z-index: 1;
         .sun {
           color: yellow;
@@ -62,10 +63,12 @@ nav {
           height: 100%;
           list-style-type: none;
           display: flex;
-          justify-content: center;
+          justify-content: top;
+          padding-top: 70px;
+          padding-right: 50px;
           align-items: center;
           flex-direction: column;
-          gap: 4rem;
+          gap: 1rem;
           li {
             a {
               text-decoration: none;
@@ -92,6 +95,7 @@ nav {
         right: 0vw;
         visibility: visible;
         opacity: 1;
+        z-index: 0;
       }
     }
   }

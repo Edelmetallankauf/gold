@@ -8,7 +8,10 @@ function ScrollTop() {
   });
   return (
     <div className='scrolltop'>
-      <a href='#home' className={`${visible ? 'scroll-block' : 'scroll-none'}`}>
+      <a
+        href='#navbar'
+        className={`${visible ? 'scroll-block' : 'scroll-none'}`}
+      >
         <FaChevronUp />
       </a>
     </div>

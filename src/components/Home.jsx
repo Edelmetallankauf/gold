@@ -14,7 +14,7 @@ function Home() {
           <h2>We buy and sell gold and silver at the best prices</h2>
         </div>
         <div className='extra-image'>
-          <Carousel>
+          <Carousel className='carousel'>
             <Carousel.Item>
               <img src={carouselImg1} alt='logo'></img>
             </Carousel.Item>

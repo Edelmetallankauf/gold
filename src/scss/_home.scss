@@ -57,10 +57,19 @@
     }
     .extra-image {
       width: 100%;
-      z-index: 0;
-      img {
-        max-inline-size: 100%;
-        block-size: auto;
+      border-radius: 1rem;
+      width: 95vw;
+
+      .carousel {
+        z-index: 0;
+        position: relative;
+        border-radius: 1rem;
+
+        img {
+          max-inline-size: 100%;
+          block-size: auto;
+          border-radius: 1rem;
+        }
       }
     }
   }
@@ -78,6 +87,7 @@
       }
     }
   }
+
   @media screen and (min-device-width: 1200px) {
     margin: 0 5rem;
     .container {
@@ -93,6 +103,7 @@
       .extra-image {
         img {
           height: 100%;
+          border-radius: 1rem;
           // max-inline-size: none;
         }
       }
