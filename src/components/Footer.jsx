@@ -51,8 +51,6 @@ function Footer() {
             </div>
           );
         })}
-
-        <div class='elfsight-app-ed170658-b721-461f-b15b-fb818b7912c8'></div>
       </div>
     </footer>
   );
