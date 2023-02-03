@@ -4,10 +4,12 @@ function Footer() {
   const data = [
     {
       type: 'Products',
+      link: 'products',
       subTypes: ['Gold', 'Silver', 'Copper', 'Precious Metals'],
     },
     {
       type: 'Services',
+      link: 'services',
       subTypes: ['Bars', 'Swiss Coins', 'Foreign Coins'],
     },
   ];
@@ -40,9 +42,9 @@ function Footer() {
             <div className='link' key={index}>
               <h3 className='title'>{type}</h3>
               <ul>
-                {subTypes.map((type, index) => (
+                {subTypes.map((type, link, index) => (
                   <li key={index}>
-                    <a>{type}</a>
+                    <a href={`#${link}`}>{type}</a>
                   </li>
                 ))}
               </ul>
